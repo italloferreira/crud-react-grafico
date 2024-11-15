@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto; 
+    border-radius: 5vh;
+    padding: 20px; 
+}
+
+.card-titulo {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px; 
+}
+
+.card-txt {
+    color: gray;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    text-align: center;  
+    width:80%; 
+}
+
+.descricao {
+    white-space: normal; 
+}

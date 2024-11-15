@@ -1,0 +1,35 @@
+.header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 20vh;
+    font-weight: bold;
+    font-size: 1.125rem; 
+    border-radius: 0px 0px 20px 20px;
+}
+
+.titulo-header {
+    text-align: center;
+    width: 100%;
+    height: 4vh;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.produtos, .page-forms {
+    color: gray;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.page-forms {
+    margin-left: 5vh;
+}
